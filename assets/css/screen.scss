@@ -113,3 +113,18 @@ max-width:1400px;
 
 }
 }
+
+@-webkit-keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+}
