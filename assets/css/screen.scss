@@ -105,6 +105,8 @@ ul.list-presentational li a {
 .supporters {
   width:100%;
   min-height:425px;
+  img {max-width: 48%;}
+
 margin:auto;
     @include media($normal-screen-up) {
 
