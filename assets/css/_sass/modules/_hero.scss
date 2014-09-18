@@ -51,14 +51,14 @@ $hero-image: '/assets/img/grass-fed-beef-new-york-hillside-1600x965.jpg';
       h1 {
         font-family: $brand-font-family;
         margin: .75em auto;
-color: white;
+        color: white;
         font-size:3.9em;
 
 
 
         @include media($large-screen) {
         //  font-size: 1.8em;
-        color: $green;
+        //color: $green;
         }
       }
 
