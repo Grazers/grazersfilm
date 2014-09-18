@@ -1,0 +1,56 @@
+hr.section-divider {
+  border-top:none;
+  display:block;
+  width:100%;
+  clear:both;
+  margin:0 4em ;
+}
+
+aside {
+  border-top: 4px solid desaturate(darken($base-accent-color, 10), 20);
+}
+
+
+.row {
+  @include row();
+  @include padding(5em 7em);
+  //margin-top: 5em;
+
+}
+
+  .column-3-wide {
+    @include span-columns(12);
+
+    @include media($normal-screen-up) {
+      @include span-columns(4 of 12);
+    }
+
+  }
+  .column-2-wide {
+    @include span-columns(12);
+
+    @include media($normal-screen-up) {
+      @include span-columns(6 of 12);
+    }
+
+  }
+
+
+
+.has-layout {
+  @include outer-container;
+
+  article.hentry {
+    @include span-columns(12);
+    @include padding(2em 3em);
+  }
+  @include media($large-screen) {
+    article.hentry {
+      margin-top: 5em;
+      @include span-columns(8);
+      @include shift(2);
+      @include padding(5em 7em);
+    }
+  }
+}
+

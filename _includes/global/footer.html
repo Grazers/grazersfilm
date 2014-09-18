@@ -1,0 +1,49 @@
+{% comment %}
+.push and .bg are utility classes we can use to
+stick our footer at the bottom of the page and
+display a full width background image, respectively
+{% endcomment %}
+<div class="push bg"></div>
+<footer class="footer-2" id="content-info">
+  <div class="footer-inner">
+
+  <h2 id="get-involved" style="color:white;">Get Involved</h2>
+
+    <div class="row" style="padding:3em 0;">
+      <div class="column-2-wide">
+        <img src="/assets/img/adk-farmers.jpeg" class="book-cover" style="border-radius:4px;">
+      </div>
+      <div class="column-2-wide">
+      <br />
+        <h4 style="color:#f7f7f7">Sign up to host a screening, join your local food movement, find lists of your local farm groups & CSAs or support small farms and sustainable agriculture groups in your community.</h4>
+<br />
+        <a href="mailto:sarah@tealeproductionsinc.com"><button>Contact</button></a>
+      </div>
+    </div>
+  </div>
+
+<hr />
+
+<div class="row">
+  <p class="lead centered">Teale Productions Inc and Jackson Films are looking for an Outreach Director for the new documentary Grazers: A Cooperative Story. The film chronicles the formation of a grass fed beef cooperative by a group of farmers in upstate New York and the challenges they face navigating a broken food system. The documentary will premiere at DOC NYC in mid November and we hope for many more festival appearances. We are looking for an enthusiastic and talented social media coordinator to expand and maintain our web site, Facebook page, Tumblr , Instagram and Twitter accounts; to research and contact compatible organizations; to manage our mailing lists and e-mail blasts; to organize screenings and compile screening kits and generally promote the film’s message and mission. This can be a full time or part time position.
+ If interested, please contact Sarah Teale on 917-941-0481 or <a href="mailto:sarah@tealeproductionsinc.com">sarah@tealeproductionsinc.com</a>
+ </p>
+
+</div>
+
+
+<hr style="border-color:#505050;margin-top:4em;" />
+
+  <div class="row">
+    <ul class="no-bullet">
+      <li class="source-org vcarfd copyright">
+        <a href="{{site.url}}"><span class="org fn">{{site.sitename}}</span></a>
+      </li>
+      <li><a href="http://sonnetmedia.net">site by sonnet media</a></li>
+    </ul>
+  </div>
+</footer>
+{% if page.background_image %}
+	<img src="/assets/img/{{page.background_image}}" class="bg">
+{% endif %}
+<!-- /footer -->

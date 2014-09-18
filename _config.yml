@@ -1,0 +1,34 @@
+url: http://www.grazersfilm.com
+sitename: 'Grazers Film'
+description: ''
+port: 3575
+#Pages - store all pages in the _pages directory
+include: ['_pages']
+
+exclude: ['readme.md','license.md','Gemfile', 'Gemfile.lock','links.jsonp', 'CNAME', 'rakefile', 'bower.json', 'node_modules', 'README.md', 'prose.yaml']
+
+# dev options (true/false)
+# if site is in production, 'production: true'
+production: false
+bust_css_cache: true
+
+# options (data)
+google_analytics_id: UA-xxxx
+disqus_id:
+addthis_id: ra-541b0a8b04593a08
+
+# CONTACT FORM http://getsimpleform.com/
+simple_form_api_token:
+directory_assets_img: /assets/img/
+
+# options (social)
+# facebook_id:
+twitter_id: budparr
+
+sass:
+    style: :compressed
+    sass_dir: assets/css/_sass
+
+collections:
+  books:
+    output: true

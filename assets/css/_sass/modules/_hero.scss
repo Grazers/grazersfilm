@@ -1,0 +1,82 @@
+.hero {
+  $hero-background-top: darken($gray, 25);
+  $hero-background-bottom: adjust-hue($hero-background-top, -70);
+  $hero-color: white;
+  $gradient-angle: 10deg;
+  //$hero-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png';
+//$hero-image: '/assets/img/bg-sea.jpg';
+$hero-image: '/assets/img/grass-fed-beef-new-york-hillside-1600x965.jpg';
+
+
+
+  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
+  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
+
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding-bottom: 4em;
+  background-attachment: fixed;
+  height: 700px;
+  height: 80vh;
+
+
+  .hero-logo img {
+    height: 3em;
+    margin-bottom: 2.5em;
+  }
+
+  .hero-inner {
+    @include outer-container;
+    @include clearfix;
+    padding: 3em;
+    margin: auto;
+    text-align: center;
+    color: $hero-color;
+    li {
+        font-family: $brand-font-family;
+        font-size: 1.2em;
+        margin-bottom: 1em;
+      }
+
+    button {
+      @include button(simple, $base-background-color);
+      font-size: $base-font-size;
+      outline: none;
+    }
+
+    .hero-copy {
+      text-align: center;
+
+      h1 {
+        font-family: $brand-font-family;
+        margin: .75em auto;
+        color: $green;
+        font-size:3.9em;
+
+
+
+        @include media($large-screen) {
+        //  font-size: 1.8em;
+        }
+      }
+
+      a {
+        color: darken($light-gray, 5%);
+      }
+
+
+
+      p {
+        //font-family: $serif;
+        margin: auto;
+                  text-shadow: 1px 1px 0 #000;
+
+        @include media($large-screen) {
+
+          max-width: 60%;
+        }
+      }
+    }
+  }
+}
