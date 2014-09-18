@@ -17,7 +17,9 @@
 @import "modules/quotes";
 
 
-
+embed {
+  max-width: 100%;
+}
 
 body {
 //  background-image: url(/assets/img/bg-sea.jpg);
@@ -63,7 +65,7 @@ background-color: white;
 .row4 {
   min-height: 300px;
   //background:url(/assets/img/bg-sea.jpg);
-  background-image: url(/assets/img/grass-fed-beef-new-york-hillside-1600x965.jpg);
+  background-image: url(/assets/img/DanandtheGirls-1585x776.jpg);
   background-position: center bottom;
   background-repeat:no-repeat;
   background-attachment:fixed;

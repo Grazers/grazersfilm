@@ -97,7 +97,10 @@
   }
 
   ul li.nav-link {
-    background: $centered-navigation-background;
+//    background: $centered-navigation-background;
+    background-image: url(/assets/img/wood_dk_v11.png);
+  background-repeat: repeat;
+
     display: block;
     line-height: $centered-navigation-height;
     overflow: hidden;
