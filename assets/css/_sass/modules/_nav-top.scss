@@ -80,9 +80,6 @@
     padding: 0;
     width: 100%;
     z-index: 99999;
-    li {
-      @include animation(fade 20.0s ease-in, slide 2.0s ease);
-    }
 
 
 
@@ -90,6 +87,10 @@
     @include media ($horizontal-bar-mode) {
       display: block;
       text-align: center;
+      li {
+      @include animation(fade 20.0s ease-in, slide 2.0s ease);
+    }
+
     }
   }
 
