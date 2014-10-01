@@ -84,10 +84,6 @@ background-attachment:fixed;
   font-size: 1.5em;
 }
 
-.trailer {
-  @include animation(fade 30.0s ease-in, slide 2.0s ease);
-}
-
 .centered {
   max-width: 100%;
   width: 100%;
