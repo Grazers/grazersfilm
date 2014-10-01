@@ -22,7 +22,7 @@ simple_form_api_token:
 directory_assets_img: /assets/img/
 
 # options (social)
-# facebook_id:
+facebook_id: grazersdoc
 twitter_id: budparr
 
 sass:
