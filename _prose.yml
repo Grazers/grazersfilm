@@ -30,6 +30,11 @@ prose:
         label: 'Title'
         placeholder: 'Put your title here'
     _pages:
+    - name: 'excerpt'
+        field:
+          element: 'textarea'
+          label: 'Short Excerpt'
+          help: 'Use markdown - *bold* _italicized_'
       - name: 'layout'
         field:
           element: 'hidden'
@@ -48,14 +53,9 @@ prose:
       - name: 'include'
         field:
           label: 'Include Snippet'
-          element: 'text'
+          element: 'hidden'
           help: 'for developer use only'
           label: 'snippet'
-      - name: 'excerpt'
-        field:
-          element: 'textarea'
-          label: 'Short Excerpt'
-          help: 'Use markdown - *bold* _italicized_'
       - name: 'youtube'
         field:
           element: 'text'
