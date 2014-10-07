@@ -2,6 +2,7 @@
 prose:
   siteurl: 'http://jekyll-starter.pubspringdev1.com/'
   media: 'assets/img'
+  rooturl: _pages
   ignore:
     - .gitignore
     - 404.html
