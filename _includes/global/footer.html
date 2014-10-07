@@ -4,7 +4,7 @@
 
   <h2 id="get-involved" style="color:white;">Get Involved</h2>
 
-    <div class="row" style="padding:3em 0;">
+    <div class="row" style="padding:3em 0 3em 0;">
       <div class="column-2-wide">
         <img src="/assets/img/adk-farmers.jpeg" class="book-cover" style="border-radius:4px;">
       </div>
@@ -16,21 +16,15 @@
       </div>
     </div>
   </div>
-<hr />
-{% for note in site.data.notes limit: 1 %}
-  {% if note.copy %}
-    <p class="lead centered">{{ note.copy }}</p>
-  {% endif %}
-{% endfor %}
-<hr style="margin-top:4em;" />
-  <div class="row">
+
+
     <ul class="no-bullet">
       <li class="source-org vcarfd copyright">
         <a href="{{site.url}}"><span class="org fn">{{site.sitename}}</span></a>
       </li>
       <li><a href="http://sonnetmedia.net">site by sonnet media</a></li>
     </ul>
-  </div>
+
 </footer>
 {% if page.background_image %}
 	<img src="/assets/img/{{page.background_image}}" class="bg">
