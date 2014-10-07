@@ -40,7 +40,7 @@ prose:
           value: 'Title'
       - name: 'permalink'
         field:
-          element: 'text'
+          element: 'hidden'
           label: 'Link'
           help: '/page-name/'
       - name: 'include'
