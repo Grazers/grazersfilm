@@ -30,7 +30,7 @@ prose:
         label: 'Title'
         placeholder: 'Put your title here'
     _pages:
-    - name: 'excerpt'
+      - name: 'excerpt'
         field:
           element: 'textarea'
           label: 'Short Excerpt'
