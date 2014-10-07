@@ -51,12 +51,6 @@ prose:
           element: 'text'
           help: 'for developer use only'
           label: 'snippet'
-      - name: 'sharing'
-        field:
-          element: 'checkbox'
-          label: 'Add Sharing Buttons to this page?'
-          help: 'Check if you want sharing buttons to show up on the page.'
-          value: 'false'
       - name: 'excerpt'
         field:
           element: 'textarea'
