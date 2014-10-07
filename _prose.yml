@@ -25,7 +25,7 @@ prose:
     _pages:
       -
         field:
-          element: textarea
+          element: text
           label: "Short Excerpt"
         name: excerpt
       -
