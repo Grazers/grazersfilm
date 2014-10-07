@@ -3,37 +3,35 @@ layout: default
 section: page
 class: home
 ---
-<section style="margin:3em auto 5em auto;">
-  <div class="trailer">
-    <h2 id="trailer">Trailer</h2>
-    <iframe style="max-width:96%;" width="853" height="480" src="//www.youtube.com/embed/sIkNV_wn_tA?rel=0" frameborder="0" allowfullscreen></iframe>
-  </div>
-</section>
-
-<section class="row2"></section>
-
+{% if  page.youtube %}
+  <section style="margin:3em auto 5em auto;">
+    <div class="trailer">
+      <h2 id="trailer">Trailer</h2>
+      <iframe style="max-width:96%;" width="853" height="480" src="//www.youtube.com/embed/{{ page.youtube }}?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+  <section class="row2"></section>
+{% elsif page.vimeo %}
+  <section style="margin:3em auto 5em auto;">
+    <div class="trailer">
+      <h2 id="trailer">Trailer</h2>
+      <iframe src="//player.vimeo.com/video/{{ page.vimeo }}?title=0&amp;byline=0&amp;portrait=0" width="850" height="478" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+  </section>
+  <section class="row2"></section>
+{% endif %}
 <section class="row3">
   <div style="width:60%;margin:auto;">
     <h2 id="about">About the Film</h2>
-    <p class="lead">New York State loses a farm every three days, and with it a way of life, generations of farming knowledge, small town infrastructure and a whole landscape. For two years Jackson and Teale filmed with a group of fiercely independent farmers in upstate New York as they attempt to form a cooperative to sell their grass fed beef. Grazers: A Cooperative Story is an intimate chronicle of the group's struggle and illuminates timely issues regarding our food system: What is the true value of small farms? Can they realistically compete against an industrialized food system? Can the members survive their first year? At stake are their farms, the small communities around them, the health of the land and a way of life.
-  </p>
+    <div class="lead">{{content}}</div>
   </div>
 </section>
-
-
 <section class="row4"></section>
-
-
 <section class="row3">
-
-
-
-<div class="supporters">
-<h2 id="supporters">Supporters</h2>
-
-<img src="/assets/img/supporters-1.png" class="first">
-<img src="/assets/img/supporters-2.png">
-
-</div>
+  <div class="supporters">
+    <h2 id="supporters">Supporters</h2>
+    <img src="/assets/img/supporters-1.png" class="first">
+    <img src="/assets/img/supporters-2.png">
+  </div>
 </section>
 
