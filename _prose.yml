@@ -61,3 +61,8 @@ prose:
           element: 'textarea'
           label: 'Short Excerpt'
           help: 'Use markdown - *bold* _italicized_'
+      - name: 'youtube'
+        field:
+          element: 'text'
+          label: 'Youtube video ID'
+          help: 'ID only'
