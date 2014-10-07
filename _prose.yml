@@ -61,7 +61,8 @@ prose:
           help: 'ID only. **Do not use Vimeo and Youtube at the same time**'
       - name: 'category'
         field:
-          element: 'select'
+          element: 'hidden'
+          label: 'Page'
           options:
             - name: 'Home'
               value: 'home'
