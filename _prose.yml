@@ -61,16 +61,4 @@ prose:
           element: hidden
           value: page
         name: layout
-      -
-        field:
-          element: hidden
-          help: /page-name/
-          label: Link
-        name: permalink
-      -
-        field:
-          element: hidden
-          help: "for developer use only"
-          label: snippet
-        name: include
   siteurl: "http://www.grazersfilm.com/"
