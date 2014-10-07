@@ -34,7 +34,6 @@ prose:
         field:
           element: 'textarea'
           label: 'Short Excerpt'
-          help: 'Use markdown - *bold* _italicized_'
       - name: 'layout'
         field:
           element: 'hidden'
