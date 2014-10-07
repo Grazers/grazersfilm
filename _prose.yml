@@ -26,9 +26,9 @@ prose:
     _posts:
       - name: 'title'
         field:
-        element: 'text'
-        label: 'Title'
-        placeholder: 'Put your title here'
+          element: 'text'
+          label: 'Title'
+          placeholder: 'Put your title here'
     _pages:
       - name: 'excerpt'
         field:
