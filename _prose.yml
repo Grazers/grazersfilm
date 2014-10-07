@@ -24,7 +24,7 @@ prose:
     - /_site
   metadata:
     _pages:
-      - name: 'excerpt'
+      - name: "excerpt"
         field:
           element: 'textarea'
           label: 'Short Excerpt'
