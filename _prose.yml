@@ -59,3 +59,9 @@ prose:
           element: 'text'
           label: 'Vimeo video ID'
           help: 'ID only. **Do not use Vimeo and Youtube at the same time**'
+      - name: 'category'
+        field:
+          element: 'select'
+          options:
+            name: 'Home'
+            value: 'home'
