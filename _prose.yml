@@ -47,4 +47,30 @@ prose:
           help: "ID only. **Do not use Vimeo and Youtube at the same time**"
           label: "Vimeo video ID"
         name: vimeo
+      -
+        field:
+          element: hidden
+          label: Page
+          options:
+            -
+              name: Home
+              value: home
+        name: category
+      -
+        field:
+          element: hidden
+          value: page
+        name: layout
+      -
+        field:
+          element: hidden
+          help: /page-name/
+          label: Link
+        name: permalink
+      -
+        field:
+          element: hidden
+          help: "for developer use only"
+          label: snippet
+        name: include
   siteurl: "http://www.grazersfilm.com/"
