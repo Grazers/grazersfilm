@@ -63,5 +63,5 @@ prose:
         field:
           element: 'select'
           options:
-            name: 'Home'
-            value: 'home'
+            - name: 'Home'
+              value: 'home'
