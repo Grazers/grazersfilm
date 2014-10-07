@@ -1,6 +1,6 @@
 #configuration options for http://prose.io editor
 prose:
-  siteurl: 'http://jekyll-starter.pubspringdev1.com/'
+  siteurl: 'http://www.grazersfilm.com/'
   media: 'assets/img'
   ignore:
     - .gitignore
@@ -11,7 +11,7 @@ prose:
     - license.md
     - readme.md
     - gemfile
-    - _notes
+    - _data
     - Gemfile.lock
     - robots.txt
     - _config.yml
