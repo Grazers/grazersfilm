@@ -58,4 +58,4 @@ prose:
         field:
           element: 'text'
           label: 'Vimeo video ID'
-          help: 'ID only. **Don't use Vimeo and Youtube at the same time**'
+          help: 'ID only. **Do not use Vimeo and Youtube at the same time**'
