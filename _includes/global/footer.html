@@ -17,6 +17,16 @@
     </div>
   </div>
 
+{% comment %}
+{% for note in site.data.notes limit: 1 %}
+  {% if note.copy %}
+  <hr />
+    <p class="lead centered">{{ note.copy }}</p>
+  <hr style="margin-top:4em;" />
+  {% endif %}
+{% endfor %}
+{% endcomment %}
+
 
     <ul class="no-bullet">
       <li class="source-org vcarfd copyright">
