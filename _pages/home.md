@@ -4,7 +4,7 @@ category: home
 title: "Grazers: A Cooperative Story"
 permalink: /
 published: true
-excerpt: "What is the true value of small farms? Can they realistically compete against an industrialized food system? Can the members survive their first year? At stake are their farms, the health of the land, and a way of life."
+excerpt: "What is the true value of small farms? Can they realistically compete against an industrialized food system? Can the members survive their first year? At stake are their farms, the health of the land, and a way of life"
 youtube: sIkNV_wn_tA
 ---
 
